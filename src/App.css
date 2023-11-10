@@ -1,0 +1,35 @@
+.todoBox{
+  width:500px;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border:1px solid black;
+  border-radius: 10px;
+  margin:auto;
+}
+.lists li{
+  display:flex;
+  list-style: none;
+}
+
+.changeDisplay{
+  display: inline;
+}
+
+.completed h1{
+  text-align: left;
+  margin-top: 50px;
+
+}
+.completed{
+  margin-bottom: 20px;
+}
+.form{
+  margin-top: 50px;
+}
+
+.completed li{
+  list-style-type: circle;
+}
